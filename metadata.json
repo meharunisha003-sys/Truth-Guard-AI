@@ -1,0 +1,7 @@
+{
+  "name": "Remix: TRUTH GUARD",
+  "description": "Advanced AI-powered fake news detection system using ML, Gemini AI analysis, and real-time fact-checking.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Truth Guard",
+  "version": "1.0",
+  "description": "Real-time fake news detection powered by AI.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

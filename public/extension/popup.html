@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 300px; font-family: sans-serif; padding: 16px; background: #0a0a0a; color: white; }
+    .header { display: flex; items-center: center; gap: 8px; margin-bottom: 16px; }
+    .btn { width: 100%; background: #10b981; color: black; border: none; padding: 10px; border-radius: 8px; font-weight: bold; cursor: pointer; }
+    .result { margin-top: 16px; padding: 12px; background: #18181b; border-radius: 8px; display: none; }
+    .score { font-size: 24px; font-weight: bold; color: #10b981; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="icon.png" width="24">
+    <strong>Truth Guard</strong>
+  </div>
+  <button id="analyze" class="btn">Analyze This Page</button>
+  <div id="result" class="result">
+    <div id="classification" style="font-size: 12px; text-transform: uppercase; opacity: 0.6;"></div>
+    <div id="score" class="score"></div>
+    <p id="reason" style="font-size: 11px; color: #a1a1aa;"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
